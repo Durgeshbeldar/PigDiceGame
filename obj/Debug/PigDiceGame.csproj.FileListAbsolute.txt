@@ -1,0 +1,7 @@
+S:\Office Work\Monocept Training\Assignments\PigDiceGame\PigDiceGame\bin\Debug\PigDiceGame.exe.config
+S:\Office Work\Monocept Training\Assignments\PigDiceGame\PigDiceGame\bin\Debug\PigDiceGame.exe
+S:\Office Work\Monocept Training\Assignments\PigDiceGame\PigDiceGame\bin\Debug\PigDiceGame.pdb
+S:\Office Work\Monocept Training\Assignments\PigDiceGame\PigDiceGame\obj\Debug\PigDiceGame.csproj.AssemblyReference.cache
+S:\Office Work\Monocept Training\Assignments\PigDiceGame\PigDiceGame\obj\Debug\PigDiceGame.csproj.CoreCompileInputs.cache
+S:\Office Work\Monocept Training\Assignments\PigDiceGame\PigDiceGame\obj\Debug\PigDiceGame.exe
+S:\Office Work\Monocept Training\Assignments\PigDiceGame\PigDiceGame\obj\Debug\PigDiceGame.pdb
