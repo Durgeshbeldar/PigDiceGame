@@ -11,14 +11,12 @@ namespace PigDiceGame.Models
         public string PlayerName { get; set; }
         public int TotalScore { get; set; }
 
-
         // Constructor For Initializing Player
+        
         public Player(string playerName)
         {
             PlayerName = playerName;
             TotalScore = 0;
         }
-
-
     }
 }
