@@ -15,7 +15,9 @@ namespace PigDiceGame.Presentation
         {
             int turn = INITIAL_TURN;
             bool activeStatus = true;
+            
             // Instructions to user ...
+            
             GeneralInstructions();
             Console.Write("\nEnter your name: ");
             string playerName = Console.ReadLine();
@@ -34,7 +36,9 @@ namespace PigDiceGame.Presentation
                 }
                 ++turn;
             }
+            
             //User wanted to Play Again or not..
+            
             Console.WriteLine("\nDo You Want to Play Again? Press Yes OR No using (y/n):");
             string userChoice = Console.ReadLine().ToLower();
             HandleGameState(userChoice);
@@ -42,6 +46,7 @@ namespace PigDiceGame.Presentation
         
 
         // To Get User Wanted to Play Again Or Not ...
+        
         public static void HandleGameState(string userChoice)
         {
             if(userChoice == "y")
@@ -64,10 +69,10 @@ namespace PigDiceGame.Presentation
                 string userChoice = Console.ReadLine().ToLower();
                 HandleUserOperation(gameController,player, userChoice);    
             }
-
         }
 
         // Handles the user Inputs..
+        
         public static void HandleUserOperation(GameController gameController,Player player, string userChoice)
         {
             switch (userChoice)
@@ -86,6 +91,7 @@ namespace PigDiceGame.Presentation
 
 
         // Instructions for the PIG DICE GAME....
+        
         public static void GeneralInstructions()
         {
             Console.WriteLine($"*********** Welcome to the Pig Dice Game! ***********\n" +
