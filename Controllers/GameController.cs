@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace PigDiceGame.Controllers
 {
     // Game Controller class to control the game functionalities...
+    
     internal class GameController
     {
         public Player Player {  get; set; }
@@ -24,9 +25,11 @@ namespace PigDiceGame.Controllers
 
 
         // Logic for Rolling the Dice...
+        
         public string RollTheDice()
         {
             // Player is rolling the dice...
+            
             Random random = new Random();
             int diceResult = random.Next(MIN, MAX);
             if (diceResult == MIN) 
@@ -41,6 +44,7 @@ namespace PigDiceGame.Controllers
 
 
         // The function Executed when user choose to hold the current turn
+        
         public string Hold()
         {
             Player.TotalScore = Player.TotalScore + CurrentTurnScore;
@@ -51,6 +55,7 @@ namespace PigDiceGame.Controllers
 
 
         // Return weather player Won or not ...
+        
         public bool IsWon()
         {
             return (Player.TotalScore >= tagetPoints);
